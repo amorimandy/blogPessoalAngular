@@ -1,0 +1,34 @@
+ul.social-network{
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-network li{
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+.bi{
+    font-size: 25pt;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.bi:hover{
+    color: goldenrod;
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    color: goldenrod;
+}
+
+span{
+    color: black;
+    font-size: 14px;
+}
+
