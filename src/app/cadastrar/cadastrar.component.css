@@ -1,7 +1,21 @@
-#bg{
-    background-image: url('https://i.imgur.com/GQyuZjC.jpg');
-    min-height: 850px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#bg {
+  background-image: url('https://i.imgur.com/GQyuZjC.jpg');
+  min-height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.breadcrumb-dot .breadcrumb-item+.breadcrumb-item::before {
+  content: "•";
+  color: black;
+}
+
+.bg{
+    background-color: ghostwhite;
+}
+
+.active{
+    color: black;
+    font-weight: bold;
 }
