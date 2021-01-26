@@ -1,3 +1,11 @@
 .sair:hover{
-    color: goldenrod !important;
+    color: rgb(134, 86, 161) !important;
+}
+
+.nav:hover{
+    color: rgb(134, 86, 161) !important;
+}
+
+.c-purple{
+    color: rgb(134, 86, 161);
 }

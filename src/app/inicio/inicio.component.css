@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
+
+
+html {
+  font-family: 'Snippet', sans-serif;
+}
+
+#container {
+  background-color: rgba(69, 21, 92, 0.479);
+}
+
+/* #logo {
+  width: 300px;
+} */
+
+.fs-54 {
+  font-size: 2.8rem;
+}
+
+.fs-18 {
+  font-size: 1.2rem;
+}
+
+.links{
+  color: #70188b;
+}
+
+@media (min-width: 750px) {
+  .fs-54 {
+    font-size: 4.0rem;
+  }
+
+  .fs-18 {
+    font-size: 1.5rem;
+  }
+}
+
+#cd{
+  color: #8E37D7;
+}
+
+
+
+/* botoes */
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 45px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 15px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-3 {
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header-left ol{
+  width: auto;
+  float: left;
+  display: block;
+  background-color: #6899D3;        
+  margin: 0;
+  padding: 0;
+}
+
+.btn-hover.color-5 {
+  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+.btn-hover.color-2 {
+  background-image: linear-gradient(to right, #eeb722, #e43603, #d30909, #a73704e3);
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+

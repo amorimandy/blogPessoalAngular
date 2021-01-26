@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
+
+html {
+  font-family: 'Snippet', sans-serif;
+}
+
 #bg {
   background-image: url("https://i.imgur.com/wz1S4WP.jpg");
   min-height: 950px;

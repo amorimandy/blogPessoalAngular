@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
+
+h4 {
+  color: rgb(134, 86, 161);
+}
+
 ul.social-network{
     list-style: none;
     padding: 0;
@@ -16,19 +22,18 @@ ul.social-network li{
 }
 
 .bi:hover{
-    color: goldenrod;
+    color: rgb(134, 86, 161);
 }
 
 footer{
-    font-family: 'Roboto', sans-serif;
-}
-
-h4{
-    color: goldenrod;
+    font-family: 'Snippet', sans-serif;
 }
 
 span{
-    color: black;
+    color: rgba(253, 253, 253, 0.479);
     font-size: 14px;
 }
 
+img{
+    width: 80px;
+}
