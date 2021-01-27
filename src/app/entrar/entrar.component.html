@@ -1,48 +1,40 @@
-<html>
-  
-<div class="container-fluid">
-  <div class="row d-flex align-items-center">
-    <div class="col-md-6">
+ <html>
+   
+  <div class="container-fluid">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-6">
 
-      <!-- <nav aria-label="breadcrumb">
-        <ol class="breadcrumb breadcrumb-dot bg">
-          <li class="breadcrumb-item active" aria-current="page">Home</li>
-          <li class="breadcrumb-item"><a class="text-dark" href="https://brazil.generation.org/">Generation</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Cadastro</li>
-        </ol>
-      </nav> -->
+        <div class="row d-flex justify-content-center">
 
-      <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
 
-        <div class="col-md-6">
+            <h1 class="text-center mt-5 mb-5">Entrar <i class="bi bi-cursor"></i></h1>
 
-          <h1 class="text-center mt-5 mb-5">Entrar <i class="bi bi-cursor"></i></h1>
+            <div class="form-group">
 
-          <div class="form-group">
-
-            <label for="usuario">Usuário</label>
-            <input [(ngModel)]='userLogin.usuario' class="form-control p-3 mb-2 bg-light" type="text" name="
+              <label for="usuario">Usuário</label>
+              <input [(ngModel)]='userLogin.usuario' class="form-control p-3 mb-2 bg-light" type="text" name="
                         usuario" id="usuario" placeholder="Digite seu usuário">
-          </div>
+            </div>
 
-          <div class="form-group">
-            <label for="senha">Senha</label>
-            <input [(ngModel)]='userLogin.senha' class="form-control p-3 mb-2 bg-light" type="password" name="
+            <div class="form-group">
+              <label for="senha">Senha</label>
+              <input [(ngModel)]='userLogin.senha' class="form-control p-3 mb-2 bg-light" type="password" name="
                         senha" id="senha" placeholder="Digite sua senha">
+            </div>
+
+            <div class="d-flex justify-content-center mt-4">
+              <button type="submit" class="btn btn-success" (click)='entrar()'>Entrar</button>
+            </div>
+
+            <hr class="mt-5 mb-5">
+            <p class="text-center"> Não tem uma conta? <a routerLink="/cadastrar">Cadastre-se</a></p>
           </div>
 
-          <div class="d-flex justify-content-center mt-4">
-            <button type="submit" class="btn btn-success" (click)='entrar()'>Entrar</button>
-          </div>
-
-          <hr class="mt-5 mb-5">
-          <p class="text-center"> Não tem uma conta? <a routerLink="/cadastrar">Cadastre-se</a></p>
         </div>
-
       </div>
+      <div class="col-md-6" id="bg"></div>
     </div>
-    <div class="col-md-6" id="bg"></div>
   </div>
-</div>
 
-</html>
+  </html>

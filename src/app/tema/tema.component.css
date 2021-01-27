@@ -1,0 +1,37 @@
+
+.fs-54 {
+  font-size: 2.8rem;
+}
+
+.fs-18 {
+  font-size: 1.2rem;
+}
+
+.links{
+  color: #76248f;
+}
+
+@media (min-width: 750px) {
+  .fs-54 {
+    font-size: 4.0rem;
+  }
+
+  .fs-18 {
+    font-size: 1.5rem;
+  }
+}
+
+a{
+    color: rgb(161, 108, 211);
+}
+
+#cont{
+  background-image: url('https://i.imgur.com/uYYJE2j.jpg?1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+
+/* table */

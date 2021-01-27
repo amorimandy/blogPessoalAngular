@@ -1,5 +1,4 @@
-<html>
-<div class="container-fluid" id="container">
+<div class="container-fluid font" id="container">
 
   <div class="row d-flex align-items-center">
     <div class="col-md-6">
@@ -23,7 +22,6 @@
     </div>
   </div>
 </div>
-
 
 <div class="container mb-5 mt-5" id="postagens">
 
@@ -53,8 +51,6 @@
 </div>
 
 
-</html>
-
 
 <!-- Modal -->
 <div class="modal fade" id="novaPostagem" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
@@ -78,7 +74,8 @@
           <textarea name="texto" id="texto" class="form-control" rows="5"></textarea>
         </div>
         <div class="form-group">
-          <label for="texto">Escolha um tema ou <a href="#" id="cd">cadastre um novo</a>: </label>
+          <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink='/tema' id="cd">cadastre um novo</a>:
+          </label>
           <select name="tema" id="tema" class="form-control">
             <option value="">Temas</option>
           </select>

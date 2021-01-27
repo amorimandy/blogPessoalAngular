@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
-
 h4 {
-  color: rgb(134, 86, 161);
+  color: rgb(140, 87, 170);
 }
 
 ul.social-network{
@@ -25,15 +23,7 @@ ul.social-network li{
     color: rgb(134, 86, 161);
 }
 
-footer{
-    font-family: 'Snippet', sans-serif;
-}
-
 span{
     color: rgba(253, 253, 253, 0.479);
     font-size: 14px;
-}
-
-img{
-    width: 80px;
 }

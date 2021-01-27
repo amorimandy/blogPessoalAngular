@@ -12,17 +12,7 @@ html {
   background-size: cover;
 }
 
-
-/* .breadcrumb-dot .breadcrumb-item + .breadcrumb-item::before {
-  content: "•";
-  color: black;
+a{
+  color: blueviolet;
 }
 
-.bg {
-  background-color: ghostwhite;
-}
-
-.active {
-  color: black;
-  font-weight: bold;
-} */
